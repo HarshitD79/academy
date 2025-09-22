@@ -112,8 +112,6 @@ class Contact(models.Model):
     subject = models.TextField()
     message = models.TextField()
 
-
-
 # Course Model
 class Course(models.Model):
     title = models.CharField(max_length=100)
